@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,500,600,700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>Bali ♥</title>
+</head>
+
+<body>
+
+  <div>
+
+    <!-- Her website -->
+
+    <!-- First 100 vh -->
+    <audio src="./assets/ssnhb.mp3" id="my_audio" loop="loop" autoplay="autoplay"></audio>
+    <div class="landing-page-first">
+      <div class="landing-page-intro">
+        <!-- <p>ASD</p> -->
+        <span class="breathe">Breathe.</span>
+      </div>
+    </div>
+
+
+
+    <!-- Letter -->
+    <div class="letter-body">
+      <p>Martha Marie,</p>
+
+      <span>Hi po! gusto ko mag thank you sayo sa lahat ng mga binigay mo sakin lalo na ngayong taon, Madami
+        tayong pinagdaanan na pagsubok na lagi tayong pinapahirapan, Pero ang higit sa lahat, nalalagpasan natin sila at
+        natututo tayo.
+        Ikaw yung dahilan kung bakit mas naging better person ako, kung bakit mas malakas ako, isa ka sa mga inspirasyon
+        ko, ikaw yung nagturo sakin pano magmahal, sobrang swerte ko na nakilala kita. Super thank you! </span>
+
+
+      <p>
+        Sa araw araw napapaisip ako, bakit binibigay satin tong ganitong bagay, na bakit satin pa? na bakit tayo pa?
+        Pero sabi nga nila, Walang binibigay na problema satin kung hindi natin kaya. Tama po ba?
+      </p>
+
+      <p>Sa loob ng ilang araw, 5 years na tayong magkakilala, parang kelan lang noh, Fresh parin sa memories ko yung
+        kinakantahan moko lagi, bago matulog. Kahit sa sandaling oras na yun, Naranasan ko kung paano mahalin ng totoo. Sorry kung lagi ko paring naalala hihi.
+      </p>
+
+      <p>
+        Ang wish ko para sating dalawa ay mas maging better pa tayo, mas maging strong para humarap pa sa mga mabibigat
+        na challenges sa buhay. at ang pinaka mahalagang wish ko sa lahat ay sana mawala na yung pain sa puso nating
+        dalawa.
+      </p>
+
+      <span>Merry Christmas and Happy New Year!	🎁🎆</span>
+
+      <br /><br />
+      <p>Mahal na mahal kita ♥,</p>
+
+    </div>
+
+
+    <!-- Fifth 20 vh -->
+    <div class="landing-page-footer">
+      <!-- Footer -->
+      BALI EST. 2016
+    </div>
+
+</body>
+
+</html>
+
+</div>
+
+<!-- Scripts -->
+<script>
+  window.scrollTo({
+    top: 0,
+    left: 100,
+    behavior: 'smooth'
+  });
+
+  window.onload = () => {
+    let aud = document.getElementById("my_audio");
+    aud.volume = 0.1;
+    aud.play();
+  }
+
+  // Slide Up
+  const slideUp = {
+    distance: "150%",
+    origin: 'bottom',
+    opacity: null,
+    delay: 200,
+  };
+
+  // const slideLeft = {
+  //   distance: "150%",
+  //   origin: "left",
+  //   opacity: null,
+  //   delay: 750,
+  // }
+
+  // const slideRight = {
+  //   distance: "150%",
+  //   origin: "right",
+  //   opacity: null,
+  //   delay: 750,
+  // }
+
+  const slideUpDelayed = {
+    distance: '150%',
+    origin: 'bottom',
+    opacity: null,
+    delay: 200,
+  }
+
+
+  //Scroll reveal divs
+  ScrollReveal().reveal('.greet-picture', slideUp);
+  ScrollReveal().reveal('.letter-body', slideUp);
+  ScrollReveal().reveal('.second-circle', slideUp);
+  ScrollReveal().reveal(".circle-container", slideUpDelayed)
+
+</script>
+</body>
+
+</html>

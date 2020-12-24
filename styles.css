@@ -1,0 +1,292 @@
+html {
+  scroll-behavior: smooth;
+  /* height: 100%;
+  overflow: auto; */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Dancing Script'; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+ /* FIRST  */
+.landing-page-first {
+  height: 100vh;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./assets/aes.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  /* background-size: 100em 80%; */
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: 'Dancing Script';
+}
+
+.landing-page-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  font-size: 5rem;
+  padding: 20px;
+  text-align: center;
+}
+
+.breathe {
+  animation: pulse 3s;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.letter-body {
+  background-color: #FFFF;
+  padding: 25px;
+  font-size: 25px;
+  line-height: 2;
+  font-family: 'Georgia';
+}
+
+
+/* SECOND */
+.landing-page-second {
+  height: 100%;
+}
+
+.greet-picture {
+  background-color: antiquewhite;
+  height: 70vh;
+}
+
+.greet-text {
+  background-color: orangered;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.5rem;
+}
+
+
+
+
+/* THIRD */
+.landing-page-third {
+  height: 100%;
+}
+
+.first-circle {
+  height: 90vh;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  padding: 5vh;
+  font-size: 1.5rem;
+}
+
+.second-circle {
+  height: 90vh;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  padding: 5vh;
+  font-size: 1.5rem;
+  /* align-items: center; */
+}
+
+/* Circles */
+
+.circle-inner-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.circle {
+  background-color: white;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+
+/* Fourth */
+.landing-page-fourth {
+  height: 100vh;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.5rem;
+}
+
+.landing-page-footer {
+  height: 20vh;
+  background: #0f4669;
+  background-position: top;
+  background-repeat: no-repeat;
+  /* background-size: 100em 80%; */
+  color: white;
+  display: flex;
+  font-size: 20px;
+  font-weight: 900;
+  justify-content: center;
+  font-family: 'Dancing Script';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* @Media Queries */
+
+@media only screen and (min-width: 0px) and (max-width: 350px) {
+
+.landing-page-second {
+  height: 100%;
+  font-size: 1.5rem;
+}
+
+.greet-picture {
+  background-color: antiquewhite;
+  height: 70vh;
+}
+
+.greet-text {
+  background-color: orangered;
+  height: 100vh;
+}
+
+
+.landing-page-third {
+  height: 100%;
+  font-size: 1.5rem;
+}
+
+.first-circle {
+  height: 100vh;
+}
+
+.second-circle {
+  height: 100vh;
+}
+
+.landing-page-fourth {
+  font-size: 1.5rem;
+}
+
+
+}
+
+@media only screen and (min-width: 351px) and (max-width: 599px) {
+
+
+
+  .landing-page-third {
+    height: 100%;
+      font-size: 1.5rem;
+  }
+  
+  .first-circle {
+    height: 100vh;
+  }
+  
+  .second-circle {
+    height: 100vh;
+  }
+  
+  
+.landing-page-fourth {
+  font-size: 1.5rem;
+}
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1500px) {
+
+
+
+  .landing-page-third {
+    height: 100%;
+    font-size: 1.5rem;
+  }
+  
+  .first-circle {
+    height: 100vh;
+  }
+  
+  .second-circle {
+    height: 100vh;
+  }
+ 
+  
+  
+.landing-page-fourth {
+  font-size: 1.5rem;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+  .landing-page-second {
+    height: 100%;
+    display: flex;
+    font-size: 1.5rem;
+  }
+  
+  .greet-picture {
+    background-color: antiquewhite;
+    height: 95vh;
+    width: 30%;
+  }
+  
+  .greet-text {
+    background-color: orangered;
+    height: 95vh;
+    width: 70%;
+  }
+
+
+  .landing-page-third {
+    height: 95%;
+    display: flex;
+    font-size: 1.5rem;
+  }
+  
+  .first-circle {
+    height: 95vh;
+    width: 50%
+  }
+  
+  .second-circle {
+    height: 95vh;
+    width: 50%
+  }
+ 
+  
+  
+.landing-page-fourth {
+  font-size: 1.5rem;
+}
+}
+
+/* XXLarge screens */
+@media only screen and (min-width: 120.063em) {
+ 
+}
